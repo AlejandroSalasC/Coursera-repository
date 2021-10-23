@@ -1,0 +1,95 @@
+<!Doctype html>
+<html>
+	<head>
+		<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+
+		h1{
+			text-align: center;
+			margin-bottom: 30px;
+		}
+
+		.Info{
+			padding:  0px 0px 5px 5px;
+			margin-right: auto;
+			margin-left: auto;
+			margin-bottom: 10px;
+			background-color: lightgray;
+			color: black;
+			width: 90%;
+			height: auto;
+			font-size: 1.25em;
+			border: 1px solid black;
+			position: relative;
+
+		}
+
+		.row {
+			width: 100%;
+		}
+
+		.titulo{
+			
+
+			text-align: center;
+			margin-bottom: 0px;
+			margin-top: 0px;
+			width: 30%;
+			height:40px;
+			border: 1px solid black;
+			position: relative;
+			left: 70%;
+			top: 0px;
+		}
+
+		#chicken{
+			background-color: lightpink;
+		}
+		#beef{
+			background-color: orangered;
+		}
+		#sushi{
+			background-color: lightgreen;
+		}
+
+		@media (min-width: 992px){
+			.col-lg-4{
+				float: left;
+				width: 33%;
+			}
+		}
+
+		@media (min-width: 768px) and (max-width: 991px){
+
+			.col-md-6{
+				float: left;				
+				width: 50%;
+			}
+			.col-md-12{
+				float: left;
+				width: 100%;
+			}
+		}
+
+		@media (max-width: 767px){
+			.col.sm-12{
+				float: left;
+				width: 100%;
+			}
+		}
+
+		</style>
+	</head>
+	<body>
+		<h1>
+			Our menu!
+		</h1>
+
+		
+		<div class="col-lg-4 col-md-6 col.sm-12"><div class="Info"><p id="chicken" class="titulo" >Chicken</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia efficitur varius. Pellentesque auctor aliquet enim, quis vestibulum mauris imperdiet luctus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean vulputate libero in lorem consectetur, et hendrerit tortor pulvinar.</div></div>
+		<div class="col-lg-4 col-md-6 col.sm-12"><div class="Info"><p id="beef" class="titulo">Beef</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia efficitur varius. Pellentesque auctor aliquet enim, quis vestibulum mauris imperdiet luctus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean vulputate libero in lorem consectetur, et hendrerit tortor pulvinar.</div></div>
+		<div class="col-lg-4 col-md-12 col.sm-12"><div class="Info"><p id="sushi" class="titulo" >Sushi</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia efficitur varius. Pellentesque auctor aliquet enim, quis vestibulum mauris imperdiet luctus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean vulputate libero in lorem consectetur, et hendrerit tortor pulvinar.</div></div>
+	</body>
+</html>
