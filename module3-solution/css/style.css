@@ -1,0 +1,108 @@
+body{
+
+	font-size: 16px;
+	color: #fff;
+	background-color: white;
+	font-family: sans-serif;
+}
+
+/** Header **/
+#header-nav{
+	background-color: purple;
+	border-radius: 0;
+	border: 0;
+}
+
+#nav-title{
+	margin-left: 0px;
+}
+.navbar-brand{
+	padding-top: 10px;
+}
+
+.navbar-brand{
+	margin-left: 10px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	text-decoration: none;
+	float: left !important;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand div{
+	float: left;
+	text-decoration: none;
+	color: white;
+}
+.navbar-brand div:hover {
+
+	text-decoration: none;
+	color: lightgray;
+}
+
+/** End Header**/
+
+/** Body **/
+
+h1{
+	color: black;
+	font-family: sans-serif;
+
+}
+
+.menu-content{
+	height: auto;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid black;
+	overflow: hidden;
+	background-color: purple;
+}
+.menu-title{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+}
+@media (min-width: 769px){
+.display-xs-only{
+	display: none;
+}
+}
+@media (max-width: 768px){
+.display-xs-only{
+	display: block;
+}
+}
+
+/** Cellphone menu bottom **/
+
+.navbar-header button.navbar-toggler{
+	border: 1px solid white;
+	clear: both;
+}
+
+.nav-link{
+	margin-top: 10px;
+}
+.nav-link a{
+	color: white;
+	text-align: center;
+
+}
+.nav-link a: hover{
+	background-color: darkmagenta;
+}
